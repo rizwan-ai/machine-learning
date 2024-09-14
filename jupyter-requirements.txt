@@ -50,6 +50,7 @@ nbformat==5.10.4
 nest-asyncio==1.6.0
 notebook==7.2.2
 notebook_shim==0.2.4
+numpy==2.1.1
 overrides==7.7.0
 packaging==24.1
 pandocfilters==1.5.1
@@ -61,8 +62,10 @@ prompt_toolkit==3.0.47
 psutil==6.0.0
 ptyprocess==0.7.0
 pure_eval==0.2.3
+py4j==0.10.9.7
 pycparser==2.22
 Pygments==2.18.0
+pyspark==3.5.2
 python-dateutil==2.9.0.post0
 python-json-logger==2.0.7
 PyYAML==6.0.2
