@@ -1,0 +1,27 @@
+pip install "fastapi[standard]"
+- starlette
+- pydantic
+- uvicorn
+- fastapi
+
+Installing collected packages: websockets, uvloop, typing-extensions, sniffio, shellingham, pyyaml, 
+python-multipart, python-dotenv, pygments, mdurl, MarkupSafe, idna, httptools, h11, dnspython, 
+click, certifi, annotated-types, uvicorn, pydantic-core, markdown-it-py, jinja2, httpcore, 
+email-validator, anyio, watchfiles, starlette, rich, pydantic, httpx, typer, fastapi, fastapi-cli
+
+---
+
+
+fastapi dev app/main.py
+
+╭────────── FastAPI CLI - Development mode ───────────╮                                                                                                 
+│                                                     │                                                                                                 
+│  Serving at: http://127.0.0.1:8000                  │                                                                                                 
+│                                                     │                                                                                                 
+│  API docs: http://127.0.0.1:8000/docs               │                                                                                                 
+│                                                     │                                                                                                 
+│  Running in development mode, for production use:   │                                                                                                 
+│                                                     │                                                                                                 
+│  fastapi run                                        │                                                                                                 
+│                                                     │                                                                                                 
+╰─────────────────────────────────────────────────────╯   
