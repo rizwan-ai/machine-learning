@@ -1,0 +1,39 @@
+# Jupyter Notebook
+
+Install the classic Jupyter Notebook with:
+pip install notebook
+
+To run the notebook:
+jupyter notebook
+
+---
+
+# JupyterLab
+
+Install JupyterLab with pip:
+pip install jupyterlab
+
+Once installed, launch JupyterLab with:
+jupyter lab
+
+---
+
+pip install notebook
+
+Installing collected packages: webencodings, wcwidth, pure-eval, ptyprocess, fastjsonschema, 
+websocket-client, webcolors, urllib3, uri-template, typing-extensions, types-python-dateutil, 
+traitlets, tornado, tinycss2, soupsieve, sniffio, six, send2trash, rpds-py, rfc3986-validator, 
+pyzmq, pyyaml, python-json-logger, pygments, pycparser, psutil, prompt-toolkit, prometheus-client, 
+platformdirs, pexpect, parso, pandocfilters, packaging, overrides, nest-asyncio, mistune, MarkupSafe, 
+jupyterlab-pygments, jsonpointer, json5, idna, h11, fqdn, executing, defusedxml, decorator, 
+debugpy, charset-normalizer, certifi, babel, attrs, async-lru, appnope, terminado, rfc3339-validator, 
+requests, referencing, python-dateutil, matplotlib-inline, jupyter-core, jinja2, jedi, httpcore, 
+comm, cffi, bleach, beautifulsoup4, asttokens, anyio, stack-data, jupyter-server-terminals, 
+jupyter-client, jsonschema-specifications, httpx, arrow, argon2-cffi-bindings, jsonschema, 
+isoduration, ipython, argon2-cffi, nbformat, ipykernel, nbclient, jupyter-events, nbconvert, 
+jupyter-server, notebook-shim, jupyterlab-server, jupyter-lsp, jupyterlab, notebook
+
+---
+
+pip install ipykernel       (For Just VS Code)
+IPython Kernel for Jupyter
