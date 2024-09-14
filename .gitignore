@@ -1,0 +1,17 @@
+# Ignore Python virtual environments
+ml-env/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore log files
+*.log
+
+# Ignore build output directories
+dist/
+build/
+
+# Ignore environment files
+.env

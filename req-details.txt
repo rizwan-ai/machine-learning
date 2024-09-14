@@ -1,0 +1,33 @@
+pyenv versions
+3.9.19
+* 3.11.9 (set by /Users/rizwan/.pyenv/version)
+3.12.4
+
+git --version
+git version 2.45.2
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+git config --global init.defaultBranch main
+git config --global --list
+
+
+mkdir machine-learning
+cd machine-learning
+
+python -m venv ml-env
+source ml-env/bin/activate
+
+git init
+git status
+touch .gitignore
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+pbcopy < ~/.ssh/id_ed25519.pub
+ssh -T git@github.com       
+ssh -T git@gitlab.com
+
+git add .
+git commit -m ":tada: initial commit"
+git remote add origin git@github.com:rizwan-ai/machine-learning.git
+git push -u origin main
