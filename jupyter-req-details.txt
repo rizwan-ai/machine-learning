@@ -37,3 +37,21 @@ jupyter-server, notebook-shim, jupyterlab-server, jupyter-lsp, jupyterlab, noteb
 
 pip install ipykernel       (For Just VS Code)
 IPython Kernel for Jupyter
+
+---
+
+# PySpark
+
+pip install pyspark
+
+Installing collected packages: py4j, pyspark
+
+---
+
+# NumPy
+
+pip install numpy
+
+Installing collected packages: numpy
+
+---
