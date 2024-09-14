@@ -18,11 +18,23 @@ Follow these steps to set up the environment and get started:
 
 Ensure you have the following installed on your system:
 
-- **Python 3.11.9** or higher (managed using [pyenv](https://github.com/pyenv/pyenv))
-- **Git** (version 2.45.2 or higher)
+- **Homebrew 4.3.14** or higher (managed using [brew](https://brew.sh/))
+- **Pyenv 2.4.3** or higher (managed using [brew pyenv](https://formulae.brew.sh/formula/pyenv))
+- **Python 3.11.9** or higher (managed using [pyenv python](https://github.com/pyenv/pyenv))
+- **Git 2.45.2** or higher (managed using [brew git](https://formulae.brew.sh/formula/git))
 
 You can verify your installed versions with:
 
 ```bash
+brew --version
+
+pyenv --version
 pyenv versions
+pyenv version
+brew info pyenv
+
+python --version
+brew info python
+
 git --version
+brew info git
