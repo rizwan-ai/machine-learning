@@ -31,3 +31,24 @@ git add .
 git commit -m ":tada: initial commit"
 git remote add origin git@github.com:rizwan-ai/machine-learning.git
 git push -u origin main
+
+---
+
+# README Markdown (.md) File
+
+1. Create the README.md file
+touch README.md
+
+2. Add content to README.md
+echo "# Machine Learning" >> README.md
+
+3. Add README.md to the staging area
+git add README.md
+
+4. Commit the changes with an Documentation 📚 :books:
+git commit -m ":books: Add initial README file"
+
+5. Push to the remote repository
+git push -u origin main
+
+---
