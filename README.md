@@ -40,7 +40,7 @@ git --version
 brew info git
 ```
 
-## 2. Setting up the Environment
+### 2. Setting up the Environment
 1. **Clone the repository:**
 
 ```bash
@@ -56,6 +56,7 @@ source ml-env/bin/activate  # For macOS/Linux
 ```
 
 3. **Install the required Python libraries:**
+
 Once the virtual environment is activated, install the dependencies:
 
 ```bash
@@ -63,6 +64,7 @@ pip install -r requirements.txt
 ```
 
 4. **Verify the environment:**
+
 Ensure the required packages are installed:
 
 ```bash
