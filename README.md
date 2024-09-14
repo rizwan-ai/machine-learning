@@ -38,3 +38,33 @@ brew info python
 
 git --version
 brew info git
+```
+
+## 2. Setting up the Environment
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/machine-learning.git
+cd machine-learning
+```
+
+2. **Create and activate the virtual environment:**
+
+```bash
+python -m venv ml-env
+source ml-env/bin/activate  # For macOS/Linux
+```
+
+3. **Install the required Python libraries:**
+Once the virtual environment is activated, install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. **Verify the environment:**
+Ensure the required packages are installed:
+
+```bash
+pip list
+```
