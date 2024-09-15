@@ -174,3 +174,7 @@ pyrightconfig.json
 
 # Spark
 notebooks/notebooks-01/model-artifacts-01/
+
+# Avoid macOS system files
+.DS_Store
+notebooks/.DS_Store
