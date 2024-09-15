@@ -25,3 +25,11 @@ fastapi dev app/main.py
 │  fastapi run                                        │                                                                                                 
 │                                                     │                                                                                                 
 ╰─────────────────────────────────────────────────────╯   
+
+---
+
+pip install pyspark
+Installing collected packages: py4j, pyspark
+
+pip install numpy
+Installing collected packages: numpy
