@@ -33,3 +33,58 @@ Installing collected packages: py4j, pyspark
 
 pip install numpy
 Installing collected packages: numpy
+
+---
+
+/api/v1/flight/predict
+Request - 01
+[
+  {
+    "carrier": "AS",
+    "dest": "HNL",
+    "dep_delay": 5,
+    "arr_delay": 5,
+    "arr_time": 1505,
+    "month": 1,
+    "plane_age": 17
+  }
+]
+Response - 01
+{
+  "predictions": [
+    {
+      "prediction": 1,
+      "probability": [
+        0.2226147759073654,
+        0.7773852240926347
+      ],
+      "message": "Flight is late"
+    }
+  ]
+}
+
+Request - 02
+[
+  {
+    "carrier": "VX",
+    "dest": "LAX",
+    "dep_delay": -7,
+    "arr_delay": -5,
+    "arr_time": 935,
+    "month": 12,
+    "plane_age": 12
+  }
+]
+Response - 02
+{
+  "predictions": [
+    {
+      "prediction": 0,
+      "probability": [
+        0.8901286318538559,
+        0.10987136814614407
+      ],
+      "message": "Flight is on time"
+    }
+  ]
+}

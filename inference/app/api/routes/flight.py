@@ -21,7 +21,8 @@ async def predict_flight(input_data: List[FlightInput]):
         formatted_results = [
             PredictionResponse(
                 prediction=result['prediction'],
-                probability=result['probability']
+                probability=result['probability'],
+                message="Flight is late" if result['prediction'] == 1 else "Flight is on time"
             )
             for result in results
         ]

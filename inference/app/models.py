@@ -15,3 +15,4 @@ class FlightInput(BaseModel):
 class PredictionResponse(BaseModel):
     prediction: float
     probability: List[float]
+    message: str                # Add field for the flight status message
